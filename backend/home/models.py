@@ -7,3 +7,4 @@ class Product(models.Model):
     quantity = models.IntegerField()
     price = models.DecimalField(max_digits=10,decimal_places=2,)
     discount = models.DecimalField(max_digits=10,decimal_places=2,)
+    hello = models.BinaryField(null=True,blank=True,)
